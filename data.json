@@ -1,0 +1,75 @@
+{
+  "user": [
+    {
+      "name": "test",
+      "email": "test@test.com",
+      "password": "abc",
+      "utility": {
+        "gas": {
+          "account_number": 123,
+          "provider_name": "xyz",
+          "account_status": "active"
+        },
+        "water": {
+          "account_number": 123,
+          "provider_name": "xyz",
+          "account_status": "active",
+          "paid": false,
+          "amount": 5000
+        },
+        "electricity": {
+          "account_number": 623,
+          "provider_name": "uvw",
+          "account_status": "inactive",
+          "paid": true
+        }
+      },
+      "pay_history": [
+        {
+          "email": "test@test.com",
+          "utilityname": "water",
+          "utilityType": "water",
+          "amount": 2000,
+          "time": "2024-10-30T07:47:40.753Z"
+        }
+      ]
+    },
+    {
+      "name": "test2",
+      "email": "test2@test.com",
+      "password": "def",
+      "utility": {}
+    },
+    {
+      "email": "test3@test.com",
+      "password": "abc",
+      "utility": {
+        "gas": {
+          "account_number": 123,
+          "provider_name": "xyz",
+          "account_status": "active"
+        }
+      }
+    },
+    {
+      "email": "test4@test.com",
+      "password": "abc",
+      "utility": {
+        "gas": {
+          "account_number": 123,
+          "provider_name": "xyz",
+          "account_status": "active"
+        }
+      }
+    }
+  ],
+  "payRequests": [
+    {
+      "email": "test@test.com",
+      "utilityname": "water",
+      "utilityType": "water",
+      "amount": 1000,
+      "time": "2024-11-09T10:20:34.846Z"
+    }
+  ]
+}
